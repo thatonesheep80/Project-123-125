@@ -3,7 +3,7 @@ noseY=0;
 difference=0;
 rightWristX=0;
 rightWristY=0;
-mainText = document.getElementById("main_TextInput").value;
+// mainText = document.getElementById("main_TextInput").value;
 
 function setup()
 {
@@ -23,7 +23,7 @@ function draw()
     fill('#F90093');
     stroke('#F90093');
     textSize(difference);
-    text(mainText, noseX, noseY);
+    text("hello", noseX, noseY);
 }
 
 function modelLoaded()
